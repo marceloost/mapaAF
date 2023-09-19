@@ -5,7 +5,7 @@
 </head>
 <body>
     <div id="map">
-        <img src="./imagens/mapa-alto-feliz.png" alt="">
+        <img src="./imagens/mapa-alto-feliz.png" class="imagemMapa" alt="">
     </div>
     <div id="info">
         <h2>Informações do Ponto Turístico</h2>
@@ -18,10 +18,32 @@
 </html>
 <script>
 const pontosTuristicos = [
-    { nome: "Ponto 1", imagem: "ponto1.jpg", descricao: "Descrição do Ponto 1" },
-    { nome: "Ponto 2", imagem: "ponto2.jpg", descricao: "Descrição do Ponto 2" },
-    // Adicione mais pontos turísticos aqui
+    { 
+        nome: "Uffenberg", 
+        imagem: "./imagens/cervejariaUffenberg.jpeg", 
+        descricao: "Cervejaria no Morro Belo.",
+        mapLink: "https://maps.app.goo.gl/DuScfVEDZjcspNrs6" 
+    },
+    { 
+        nome: "Cascata de Alto Feliz", 
+        imagem: "./imagens/cascataAltoFeliz.jpeg", 
+        descricao: "Linda cascata encontrada no caminho à Alto Feliz.",
+        mapLink: "https://maps.google.com/?q=latitude,longitude"
+    },
+    { 
+        nome: "Cascata de Arroio Jaguar", 
+        imagem: "./imagens/cascataArroioJaguar.jpeg", 
+        descricao: "Cascata Arroio Jaguar.",
+        mapLink: "https://maps.google.com/?q=latitude,longitude"
+    },
+    { 
+        nome: "Cascata dos Bugres", 
+        imagem: "./imagens/cascataBugres.jpeg", 
+        descricao: "Cascata dos Bugres.",
+        mapLink: "https://maps.google.com/?q=latitude,longitude"
+    }
 ];
+
 
 const infoNome = document.getElementById("nomePonto");
 const infoImagem = document.getElementById("imagemPonto");
