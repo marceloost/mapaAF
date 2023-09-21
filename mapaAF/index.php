@@ -41,6 +41,30 @@ const pontosTuristicos = [
         imagem: "./imagens/cascataBugres.jpeg", 
         descricao: "Cascata dos Bugres.",
         mapLink: "https://maps.google.com/?q=latitude,longitude"
+    },
+    { 
+        nome: "Cascata Arroio Alegre", 
+        imagem: "./imagens/cascataArroioAlegre.jpeg", 
+        descricao: "Cascata do Arroio Alegre.",
+        mapLink: "https://maps.google.com/?q=latitude,longitude"
+    },
+    { 
+        nome: "Encosta da Palmeira", 
+        imagem: "./imagens/encostaPalmeira.jpg", 
+        descricao: "Morro Esconsta da Palmeira.",
+        mapLink: "https://maps.google.com/?q=latitude,longitude"
+    },
+    { 
+        nome: "Hotel Lanfredi", 
+        imagem: "./imagens/hotelLanfredi.jpeg", 
+        descricao: "Hotel Lanfredi.",
+        mapLink: "https://maps.google.com/?q=latitude,longitude"
+    },
+    { 
+        nome: "Sítio Paraíso da Terra", 
+        imagem: "./imagens/sitioParaiso.jpeg", 
+        descricao: "Sítio Paraíso da Terra.",
+        mapLink: "https://maps.google.com/?q=latitude,longitude"
     }
 ];
 
@@ -50,17 +74,28 @@ const infoImagem = document.getElementById("imagemPonto");
 const infoDescricao = document.getElementById("descricaoPonto");
 
 pontosTuristicos.forEach((ponto) => {
+
+    const linkPontoTuristico = document.createElement("a");
+    linkPontoTuristico.href = ponto.mapLink;
+
     const elementoPonto = document.createElement("div");
     elementoPonto.className = "ponto-turistico";
-    elementoPonto.textContent = ponto.nome;
 
-    elementoPonto.addEventListener("mouseover", () => {
+    const nomePonto = document.createElement("p");
+    nomePonto.textContent = ponto.nome;
+    elementoPonto.appendChild(nomePonto);
+
+    linkPontoTuristico.appendChild(elementoPonto);
+    
+    document.getElementById("map").appendChild(linkPontoTuristico);
+
+    linkPontoTuristico.addEventListener("mouseover", () => {
         infoNome.textContent = ponto.nome;
         infoImagem.src = ponto.imagem;
         infoDescricao.textContent = ponto.descricao;
     });
-
-    document.getElementById("map").appendChild(elementoPonto);
 });
+
+
 </script>
 
