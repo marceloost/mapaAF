@@ -22,13 +22,13 @@ const pontosTuristicos = [
         nome: "Chegada na Cidade", 
         imagem: "./imagens/chegadaCidade.jpg", 
         descricao: "Entrada na cidade, visão do letreiro de Alto Feliz juntamente da igreja Paroquial Santo Ignácio",
-        mapLink: "https://maps.app.goo.gl/kit4L3GsLn2Y11mb9" 
+        mapLink: "https://maps.app.goo.gl/PBMwtRn2PQnWCdtY7" 
     },
     { 
         nome: "Vinícola Don Guerino", 
         imagem: "./imagens/donGuerino.png", 
         descricao: "Vinícola Don Guerino",
-        mapLink: "https://maps.app.goo.gl/DuScfVEDZjcspNrs6" 
+        mapLink: "https://maps.app.goo.gl/kit4L3GsLn2Y11mb9" 
     },
     { 
         nome: "Cervejaria Uffenberg", 
