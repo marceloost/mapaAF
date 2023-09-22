@@ -12,12 +12,15 @@ body {
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    background-color: #fcfaee;
 }
 
 .imagemMapa {
     width: 100%;
     height: auto;
     max-height: 80vh;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 a {
@@ -37,6 +40,7 @@ a {
     max-width: 130vh;
     max-height: 70vh;
     margin: 10px;
+    border-radius: 20px;
 }
 
 #info {
@@ -83,6 +87,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .ponto-turistico:hover {
