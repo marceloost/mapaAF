@@ -21,13 +21,13 @@ const pontosTuristicos = [
     { 
         nome: "Chegada na Cidade", 
         imagem: "./imagens/chegadaCidade.jpg", 
-        descricao: "Entrada na cidade, visão do letreiro de Alto Feliz juntamente da igreja Paroquial Santo Ignácio",
+        descricao: "Entrada na cidade, visão do letreiro de Alto Feliz juntamente da igreja Paroquial Santo Ignácio.",
         mapLink: "https://maps.app.goo.gl/PBMwtRn2PQnWCdtY7" 
     },
     { 
         nome: "Vinícola Don Guerino", 
         imagem: "./imagens/donGuerino.png", 
-        descricao: "Vinícola Don Guerino",
+        descricao: "A Vinícola Don Guerino foi idealizada pelo proprietário Osvaldo Motter e família, unindo paixão, qualidade de seus produtos, as melhores técnicas de elaboração e uma linda estrutura, que encanta seus visitantes.",
         mapLink: "https://maps.app.goo.gl/kit4L3GsLn2Y11mb9" 
     },
     { 
@@ -39,7 +39,7 @@ const pontosTuristicos = [
     { 
         nome: "Backsteinhaus", 
         imagem: "./imagens/backsteinhaus.jpeg", 
-        descricao: "Um Lugar novo para curtir com a família e amigos!",
+        descricao: "Bar, Lancheria e Padaria.",
         mapLink: "https://maps.app.goo.gl/cpUCxVMdg8Cmxxxp9" 
     },
     { 
@@ -51,31 +51,31 @@ const pontosTuristicos = [
     { 
         nome: "Cascata de Alto Feliz", 
         imagem: "./imagens/cascataAltoFeliz.jpeg", 
-        descricao: "Linda cascata encontrada no caminho à Alto Feliz.",
+        descricao: "Local de fácil acesso, no caminho de Feliz para Alto Feliz. Essa cascata é um capricho da natureza antes de entrar na cidade de Alto Feliz. Uma bela paisagem de boas vindas..",
         mapLink: "https://maps.app.goo.gl/Qau591iMY2HyjYhS9"
     },
     { 
         nome: "Cascata Arroio Jaguar", 
         imagem: "./imagens/cascataArroioJaguar.jpeg", 
-        descricao: "Cascata Arroio Jaguar.",
+        descricao: "Um lugar incrível no interior do município, um destino exuberante, perfeito para visitar em família, capturar aquelas imagens legais e também poder nadar.",
         mapLink: "https://maps.app.goo.gl/i6BBviKMNwPM47zR7"
     },
     { 
         nome: "Cascata dos Bugres", 
         imagem: "./imagens/cascataArroioAlegre.jpeg", 
-        descricao: "Cascata dos Bugres.",
+        descricao: "Os bugres, nada mais eram que os índios que vagavam por serras e vales gaúchos antes da chegada dos europeus. Dando assim esse nome para a cascata que contém uma espécie de caverna atrás da queda de água.",
         mapLink: "https://maps.app.goo.gl/DznTVA3LyMB4mpSf7"
     },
     { 
         nome: "Encosta da Palmeira", 
         imagem: "./imagens/encostaPalmeira.jpg", 
-        descricao: "Morro Esconsta da Palmeira.",
+        descricao: "Morro Esconsta da Palmeira com uma ampla visão para o município.",
         mapLink: "https://maps.app.goo.gl/Bp6AFb8b3863keiW9"
     },
     { 
         nome: "Hotel Lanfredi", 
         imagem: "./imagens/hotelLanfredi.jpeg", 
-        descricao: "Hotel Lanfredi.",
+        descricao: "Construção histórica com arquitetura típica alemã na entrada da cidade.",
         mapLink: "https://maps.app.goo.gl/S4DuTQT2QtVDsETV6"
     },
     { 
