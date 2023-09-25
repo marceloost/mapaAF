@@ -5,7 +5,7 @@
 </head>
 <body>
     <div id="map">
-        <img src="./imagens/mapaAF.png" class="imagemMapa" alt="">
+        <img src="./imagens/novoMapa.png" class="imagemMapa" alt="">
     </div>
     <div id="info">
         <h2>Ponto Turístico</h2>
@@ -41,6 +41,18 @@ const pontosTuristicos = [
         imagem: "./imagens/backsteinhaus.jpeg", 
         descricao: "Bar, Lancheria e Padaria.",
         mapLink: "https://maps.app.goo.gl/cpUCxVMdg8Cmxxxp9" 
+    },
+    { 
+        nome: "Recanto da Cascata", 
+        imagem: "./imagens/recantoCascata.jpg", 
+        descricao: "Bar e Lancheria Recanto da Cascata.",
+        mapLink: "https://maps.app.goo.gl/T2FNT3zKQdwCwL5S8" 
+    },
+    { 
+        nome: "Império Lanches", 
+        imagem: "./imagens/imperioLanches.jpg", 
+        descricao: "Império Lanches.",
+        mapLink: "https://maps.app.goo.gl/YkBVLChy9eTZqGeP8" 
     },
     { 
         nome: "Viveiro de Mudas Freiberger", 
